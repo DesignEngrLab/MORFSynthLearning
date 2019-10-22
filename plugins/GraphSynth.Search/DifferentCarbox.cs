@@ -102,6 +102,7 @@ namespace GraphSynth.Search
 
         private void Generate()
         {
+            Console.WriteLine("ddddd!");
             var agent = new Algorithms.Random(settings);
             var linkerSet = new HashSet<string>();
             for (var e = 0; e < NUM_EPOCH; e++)
