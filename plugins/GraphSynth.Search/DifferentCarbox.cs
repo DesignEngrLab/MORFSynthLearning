@@ -12,9 +12,7 @@ namespace GraphSynth.Search
 {
     public class DifferentCarbox: SearchProcess
     {
-        
         private readonly string _runDirectory;
-
         private candidate Seed;
         private JobBuffer jobBuffer;
         private Computation computation;
